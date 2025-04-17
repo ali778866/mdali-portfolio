@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 html , body {
   margin : 0;
@@ -9,6 +10,18 @@ html , body {
 }
 
 @layer utilities { 
+  @keyframe blink {
+    0% , 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
   @keyframe loading {
     0% {
       transform: translateX(-100%);

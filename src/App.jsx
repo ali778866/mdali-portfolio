@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import LoadingScreen from './components/LoadingScreen'
 import "./index.css";
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
 
 function App() {
 
@@ -8,8 +11,11 @@ function App() {
 
   return (
     <>
-      <div>
         {!isLoaded && <LoadingScreen onComplete={() => setLoaded(true)} />}
+      <div className={`min-h-screen transition-opacity duration-700 ${ isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
+        <Navbar />
+        <Home />
+        <About />
       </div>
     </>
   )
