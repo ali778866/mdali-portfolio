@@ -22,10 +22,10 @@ import React from 'react'
 function Navbar() {
 
     const navItem = (<>
-        <li className='text-gray-300 hover:text-white transition-colors'><a href='/'>Home</a></li>
-        <li className='text-gray-300 hover:text-white transition-colors'><a>About</a></li>
-        <li className='text-gray-300 hover:text-white transition-colors'><a href='/contact'>Projects</a></li>
-        <li className='text-gray-300 hover:text-white transition-colors'><a>Contact</a></li>
+        <li className='text-gray-300 hover:text-white transition-colors'><a href='#home'>Home</a></li>
+        <li className='text-gray-300 hover:text-white transition-colors'><a href='#about'>About</a></li>
+        <li className='text-gray-300 hover:text-white transition-colors'><a href='#projects'>Projects</a></li>
+        <li className='text-gray-300 hover:text-white transition-colors'><a href='#contact'>Contact</a></li>
     </>);
 
     return (

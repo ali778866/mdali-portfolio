@@ -4,6 +4,8 @@ import "./index.css";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import { Projects } from './components/Sections/Projects';
+import { Contact } from './components/Sections/Contact';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Projects />
+        <Contact /> 
       </div>
     </>
   )
