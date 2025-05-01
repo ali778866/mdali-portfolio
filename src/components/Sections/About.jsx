@@ -50,13 +50,21 @@ function About() {
                 <h3 className='text-xl font-bold mb-4'> Education </h3>
                 <ul className='list-disc list-inside text-gray-300 space-y-2'>
                     <li>
-                        <strong>B.Tech in Mechanical Engineering</strong> - Vinoba Bhave University, Hazaribag (2012-2016)
+                        <strong className='font-mono'>B.Tech in Mechanical Engineering</strong> - Vinoba Bhave University, Hazaribag (2012-2016)
                     </li>
-                    <li>Relevent Coursework: Data Structures, Web Devlopment, Cloud Computing...</li>
+                    <li>
+                        <strong className='font-mono'>Relevent Coursework</strong>: Data Structures, Web Devlopment, Cloud Computing...</li>
                 </ul>
                 </div>
                 <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all'>
-                <h3 className='text-xl font-bold mb-4'> Work Experience </h3></div>
+                <h3 className='text-xl font-bold mb-4'> Work Experience </h3>
+                <ul className='list-disc list-inside text-gray-300 space-y-2'>
+                    <li>
+                        <strong className='font-mono'>MERN stack Devloper</strong>  - Unified Mentor Pvt. Ltd. <span className='italic'>( Jan-25 to present )</span>
+                    </li>
+                    <li>
+                        <strong className='font-mono'>Backend Devloper Internship</strong> - sharpner.tech</li>
+                </ul></div>
             </div>
             </div>
         </div>

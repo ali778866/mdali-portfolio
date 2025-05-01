@@ -10,7 +10,7 @@ const SocialBar = () => {
   ];
 
   return (
-    <div className="mb-8 justify-center flex space-x-3 z-50">
+    <div className="pb-8 justify-center flex space-x-3 z-50">
       {socialLinks.map((link, idx) => (
         <a
           key={idx}
