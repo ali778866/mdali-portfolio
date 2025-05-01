@@ -24,7 +24,7 @@ function Navbar() {
                                 </div>
                                 <ul
                                     tabIndex={0}
-                                    className="menu menu-md font-mono text-xl font-bold dropdown-content border border-white/10 shadow-lg rounded-box z-2 mt-3 w-30 p-2 shadow transform transition-transform duration-300">
+                                    className="menu menu-md font-mono text-xl bg-black font-bold dropdown-content border border-white/10 shadow-lg rounded-box z-2 mt-3 w-25 p-2 shadow transform transition-transform duration-300">
                                     {navItem}
                                 </ul>
                             </div>
